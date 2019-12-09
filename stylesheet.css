@@ -1,0 +1,73 @@
+body {
+     animation: colorchange 300s; 
+      -webkit-animation: colorchange 300s;
+    color: white;
+}
+
+ @keyframes colorchange
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+ @-webkit-keyframes colorchange 
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+
+
+container {
+    
+    
+    
+}
+
+.shark {
+   position: relative;
+   margin-left: 375px;
+}
+
+.mac {
+    position: relative;
+    margin-left: 400px;
+}
+
+h1 {
+    position: relative;
+    margin-left: 600px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 50px
+}
+
+h3 {
+    position: relative;
+    margin-left: 660px;
+    margin-bottom: 20px;
+    font-size: 20px
+}
+.wiki {
+    font-size: 20px;
+    margin-left: 700px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.web {
+    font-size: 20px;
+    margin-left: 700px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+a {
+    color: white;
+}
